@@ -1,253 +1,241 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap demo</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arpit Sharma - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
-<body class="bg-dark " style="width: 100vmax;">
-  <!-- NavBar for website -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-primary " data-bs-theme="dark" style="width: 100vmax;">
-    <div class="container-fluid ps-2">
-      <a class="navbar-brand fs-3" href="#">Portfolio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active me-auto" aria-current="page" href="">Home</a>
-          </li>
+<body>
+    <div class="bg-glow"></div>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle me-1" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Contact
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="https://www.linkedin.com/in/arpitsharma6105/">LinkedIn</a></li>
-              <li><a class="dropdown-item" href="https://github.com/arpitsharma2028">Github</a></li>
-              <li><a class="dropdown-item" href="https://leetcode.com/u/arpitsharma6105/">Leetcode</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="https://www.instagram.com/arpitsharma2.0/">Instagram</a></li>
-              <li><a class="dropdown-item"
-                  href="www.snapchat.com%2Fadd%2Farpitsharma344%3Fshare_id%3D6M1hZsI1N7w%26locale%3Den-IN%26fbclid%3DPAZXh0bgNhZW0CMTEAAaZE3xJpKyZOgT9kP4K7EsGZkCOjH5-3PdmJtzgM4jt1vS7o-mrApnq67fM_aem_2fy2itYm6PyZsfE2FtF9mw&e=AT2PnMV90thb3LqCBF2u-7UCs7uwlTw-2KONIgUSmIZWsyZSssxEE7kUlY3wHoyKm-ixxiy0Nz-84y9b4AXWvimlOAO-JwhGqEXVpf9EpSnQ3Mkdmqq7mUA">Snapchat</a>
-              </li>
-              <li><a class="dropdown-item"
-                  href="https://x.com/TrickyArpit?t=ecHEpV69uT5nD1xvfj98sA&s=09&fbclid=PAZXh0bgNhZW0CMTEAAaYXfHn3in6RSYkPEsKD0ajP8Ui9cwSkVoEBVwJ6bQwVnhl1z7cd9q-rRqE_aem_M7N6TwJ4vib95LOv6z4Lsw">Twitter</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- id -->
-  <div id="containerXX" class="exp">
-    <style>
-      #containerXX {
-        width: 100%;
-        height: 250px;
-        background-color: #003061;
-        padding: 20px 40px;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-       
-        border-radius: 8px;
-        
-      }
-  
-      #photo {
-        background-image: url("arpit.jpg");
-        background-size: cover;
-        background-position: center;
-        width: 170px;
-        height: 175px;
-        border-radius: 5px;
-        margin-right: 30px; /* Increased margin-right for spacing */
-      }
-  
-      h2 {
-        color: red;
-        font-size: 40px;
-        margin: 0;
-        margin-left: 70px;
-      }
-  
-      .H3tag {
-        font-size: 18px;
-        color: aliceblue;
-        margin: 5px 0;
-        margin-left: 70px;
-      }
-  
-      .info-row {
-        display: flex;
-        align-items: center;
-        margin: 5px 0;
-        font-size: 16px;
-        margin-left: 70px;
-      }
-  
-      .info-title {
-        color: aliceblue;
-        font-weight: bold;
-        width: 80px; /* Consistent width for alignment */
-      }
-  
-      .info-content {
-        color: aliceblue;
-        font-size: 16px;
-        margin-left: 10px;
-      }
-  
-      a {
-        color: aliceblue;
-        text-decoration: none;
-      }
-  
-      a:hover {
-        text-decoration: underline;
-      }
-  
-      .text-content {
-        display: flex;
-        flex-direction: column;
-      }
-    </style>
-    <div id="photo"></div>
-    <div class="text-content">
-      <h2><b>ARPIT SHARMA</b></h2>
-      <h3 class="H3tag">Computer Engineering Student at Thapar Institute of Engineering and Technology, Patiala</h3>
-      <div class="info-row">
-        <div class="info-title">Address:</div>
-        <div class="info-content">Kurukshetra, Haryana, 136118</div>
-      </div>
-      <div class="info-row">
-        <div class="info-title"><a href="https://www.linkedin.com/in/arpitsharma6105/">LinkedIn:</a></div>
-        <div class="info-content">
-          <a href="https://www.linkedin.com/in/arpitsharma6105/">linkedin.com/in/arpitsharma6105/</a>
+    <nav>
+        <a href="#" class="logo">Arpit</a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- column  -->
-   
-  <!--experience and all extra -->
-  <!-- Card for experience-->
-   
-  <div id="div" class="card" style="width: fit-content;" >
-    <style>
-      #div {
-        background-color: #2C2C34;
-      }
-    </style>
-    <img
-      src="data:image/png;base64,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"
-      class=" img-thumbnail mb-0 " width="150px" height="150px" alt="...">
-    <div class="card-body" width="fitcontent">
-      <p class="card-text fw-bold"></p>
-      <!-- we want ki ye text bold aajaye toh hum bootstrap mei jake nyi class add kar denge text mei jake  "class="fw-bold" is added"-->
-      <p class="d-inline-flex gap-1">
-        <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
-          aria-expanded="false" aria-controls="multiCollapseExample1">Experience</a>
-        <!-- <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button> -->
-      </p>
-      <div class="row">
-        <div class="col">
-          <div class="collapse multi-collapse" id="multiCollapseExample1">
-            <div class="card card-body">
-              <H3>Experience</H3>
-              <ul>
-                <li> <b>Girl Script Summer of Code</b> : Contributer</li>
-                <p></p>
-                <li><b>Linux User Group,Tiet</b> : Member</li>
-                <p></p>
-              </ul>
+    </nav>
 
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm <br><span class="gradient-text">Arpit Sharma</span></h1>
+            <p class="hero-subtitle">Computer Engineering student at Thapar Institute of Engineering and Technology.
+                Passionate about building AI-assisted full-stack web applications and solving complex algorithmic
+                challenges.</p>
+
+            <div class="btn-group">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="mailto:arpitsharma6105@gmail.com" class="btn btn-secondary">Contact Me</a>
             </div>
-          </div>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/arpitsharma6105/" target="_blank" title="LinkedIn"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/arpitsharma2028/" target="_blank" title="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://leetcode.com/arpitsharma6105" target="_blank" title="LeetCode"><i
+                        class="fas fa-code"></i></a>
+                <a href="https://www.instagram.com/arpitsharma2.0/" target="_blank" title="Instagram"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
         </div>
-      </div>
-    </div>
-    <!-- Card for education -->
-    <div id="div" class="card" style="width: 100vmax;">
-      <img src="education.webp" class="img-thumbnail ps-1" width="150px" height="150px" alt="...">
-      <div class="card-body">
-        <p class="card-text fw-bold"></p>
-        <!-- we want ki ye text bold aajaye toh hum bootstrap mei jake nyi class add kar denge text mei jake  "class="fw-bold" is added"-->
-        <p class="d-inline-flex gap-1">
-          <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-            data-bs-target="#multiCollapseExample2" aria-expanded="false"
-            aria-controls="multiCollapseExample2">Education</button>
-          <!-- <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button> -->
+        <div class="hero-image">
+            <img src="arpit.jpg" alt="Arpit Sharma">
+        </div>
+    </section>
+
+    <section id="about" style="min-height: auto; padding-top: 4rem;">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <p
+            style="text-align: center; max-width: 800px; margin: 0 auto; color: var(--text-muted); font-size: 1.1rem; line-height: 1.8;">
+            I am a Computer Engineering student at Thapar Institute of Engineering and Technology, Patiala. I have
+            strong experience in building full-stack web applications with modern technologies like React, Node.js, and
+            PostgreSQL. With a solid foundation in software development and core computer science concepts, I actively
+            build solutions that are both scalable and user-centric.
         </p>
-        <div class="row">
-          <div class="col">
-            <div class="collapse multi-collapse" id="multiCollapseExample2">
-              <div class="card card-body">
-                <H3>Education</H3>
-                <ul>
-                  <li><b>Thapar Institute of Engineering and Technology</b> : B.tech Computer Engineerring</li>
-                  <p></p>
-                  <li><b>Maharana Pratap Public School</b> : 12th PCM</li>
-                  <P></p>
-                </ul>
-              </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3><i class="fas fa-code"></i> Languages</h3>
+                <div class="skill-tags">
+                    <span class="tag">C++</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">JavaScript</span>
+                </div>
             </div>
-          </div>
+            <div class="skill-card">
+                <h3><i class="fas fa-laptop-code"></i> Frontend & Backend</h3>
+                <div class="skill-tags">
+                    <span class="tag">React.js</span>
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">Chart.js</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Express.js</span>
+                    <span class="tag">FastAPI</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3><i class="fas fa-database"></i> Databases & Tools</h3>
+                <div class="skill-tags">
+                    <span class="tag">PostgreSQL</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">SQLite</span>
+                    <span class="tag">Git</span>
+                    <span class="tag">Docker</span>
+                    <span class="tag">Vercel</span>
+                    <span class="tag">Render</span>
+                    <span class="tag">JWT / REST APIs</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3><i class="fas fa-brain"></i> Core CS</h3>
+                <div class="skill-tags">
+                    <span class="tag">Data Structures & Algorithms</span>
+                    <span class="tag">Object-Oriented Programming</span>
+                    <span class="tag">Operating Systems</span>
+                    <span class="tag">DBMS</span>
+                    <span class="tag">Computer Networks</span>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <!-- alert -->
-    <div class="alert alert-info text-center fs-2 mb-0" role="alert" style="width: 100vmax;">
-      Things I have explored
-    </div>
-  </div>
-    <!-- carousel -->
-    <div id="carouselExampleFade" style="width: 100vmax;"
-      class="carousel slide carousel-fade mt-0 form-label border border-danger border border-4  rounded-2">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="https://media.licdn.com/dms/image/v2/D5612AQHyLFkv9YBcGA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1715058774193?e=2147483647&v=beta&t=7yqv62DbvJWPvycGiDX4FGb79GOPsVB_dreB-SHh36E"
-            class="d-block w-100" alt="...">
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Featured <span>Projects</span></h2>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <h3 class="project-title">Smart Leetcode</h3>
+                <div class="project-tech">Node.js, React, PostgreSQL, Socket.io, Docker, Gemini AI</div>
+                <div class="project-desc">
+                    <ul style="padding-left: 1rem; color: var(--text-muted); font-size: 0.95rem;">
+                        <li style="margin-bottom: 0.5rem;">Full-stack algorithmic practice platform with secure remote
+                            code execution via Docker and child processes.</li>
+                        <li style="margin-bottom: 0.5rem;">Real-time multiplayer features using Socket.io; scalable
+                            schema with automated SQL triggers.</li>
+                        <li>Integrated Google Gemini 1.5 for context-aware hints and gamified scoring.</li>
+                    </ul>
+                </div>
+                <div class="project-links">
+                    <a href="https://minileetcode-1.onrender.com/" target="_blank" class="project-link"><i
+                            class="fas fa-external-link-alt"></i> Live Site</a>
+                    <a href="https://github.com/arpitsharma2028/SmartLeetcode" target="_blank" class="project-link"><i
+                            class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3 class="project-title">DSA Manager</h3>
+                <div class="project-tech">React.js, Node.js, Express.js, PostgreSQL, JWT</div>
+                <div class="project-desc">
+                    <ul style="padding-left: 1rem; color: var(--text-muted); font-size: 0.95rem;">
+                        <li style="margin-bottom: 0.5rem;">Full-stack DSA tracking platform enabling users to organize
+                            problems into custom folders.</li>
+                        <li style="margin-bottom: 0.5rem;">Smart question ingestion auto-fetches title and complexity
+                            from LeetCode/GFG URLs.</li>
+                        <li>Spaced-repetition revisit system with real-time analytics dashboard.</li>
+                    </ul>
+                </div>
+                <div class="project-links">
+                    <a href="https://dsamanagerr.vercel.app/" target="_blank" class="project-link"><i
+                            class="fas fa-external-link-alt"></i> Live Site</a>
+                    <a href="https://github.com/arpitsharma2028/DSA_Manager" target="_blank" class="project-link"><i
+                            class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3 class="project-title">Stock Data Intelligence</h3>
+                <div class="project-tech">FastAPI, SQLite, JavaScript, Docker</div>
+                <div class="project-desc">
+                    <ul style="padding-left: 1rem; color: var(--text-muted); font-size: 0.95rem;">
+                        <li style="margin-bottom: 0.5rem;">Financial dashboard to fetch and visualize real-time NSE
+                            stock data.</li>
+                        <li style="margin-bottom: 0.5rem;">Analytics engine computing moving averages and Pearson
+                            correlation.</li>
+                        <li>Forecasting model utilizing Monte Carlo simulations for 14-day predictions.</li>
+                    </ul>
+                </div>
+                <div class="project-links">
+                    <a href="https://stock-dashboard-nro3.onrender.com" target="_blank" class="project-link"><i
+                            class="fas fa-external-link-alt"></i> Live Site</a>
+                    <a href="https://github.com/arpitsharma2028/stock-data-intelligence-dashboard" target="_blank"
+                        class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
         </div>
-        <div class="carousel-item">
-          <img
-            src="https://ripenapps.com/blog/wp-content/uploads/2019/01/Android-App-Development-with-Kotlin-A-Looming-Demand-scaled.webp"
-            class="d-block w-100" alt="...">
+    </section>
+
+    <section id="education">
+        <h2 class="section-title">Education & <span>Achievements</span></h2>
+
+        <div class="edu-cert-container">
+            <div>
+                <h3 style="font-size: 1.5rem; margin-bottom: 2rem; color: var(--text-color);">Education</h3>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 — 2028</div>
+                    <div class="timeline-title">Thapar Institute of Engineering and Technology</div>
+                    <div class="timeline-subtitle">B.E. in Computer Engineering</div>
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem;">CGPA: 8.76 / 10.0</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Class XII & Class X</div>
+                    <div class="timeline-title">Maharana Pratap Public School</div>
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem;">Class XII: 88.8% | Class
+                        X: 92.2%</p>
+                </div>
+            </div>
+
+            <div>
+                <h3 style="font-size: 1.5rem; margin-bottom: 2rem; color: var(--text-color);">Achievements</h3>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">June 2026</div>
+                    <div class="timeline-title">100 Days LeetCode Challenge</div>
+                    <div class="timeline-subtitle">Certification</div>
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem;">
+                        <a href="https://credsverse.com/credentials/ee8e417f-8924-4085-bf0f-48c8ae17b587?recipient=true"
+                            target="_blank" style="color: var(--accent-1); text-decoration: none;">View Credential <i
+                                class="fas fa-arrow-right" style="font-size: 0.8rem;"></i></a>
+                    </p>
+                </div>
+
+
+            </div>
         </div>
-        <div class="carousel-item">
-          <img
-            src="https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/4087150/cover_image/regular_1708x683/cover-0828_AfterAllTheseYearstheWorldisStillPoweredbyCProgramming_Razvan_Newsletter-92346cef5f5a3b5b3fe99c736dd48ae6.png"
-            class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="https://datapro.in/uploads/1a73de2b9ea968a014158e1af9839dc0.png" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"></script>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Arpit Sharma. Designed with ❤️</p>
+    </footer>
+
+    <script>
+        // Navbar blur on scroll
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.style.padding = '1rem 5%';
+                nav.style.background = 'rgba(5, 5, 5, 0.8)';
+            } else {
+                nav.style.padding = '1.5rem 5%';
+                nav.style.background = 'rgba(5, 5, 5, 0.6)';
+            }
+        });
+    </script>
 </body>
 
 </html>
